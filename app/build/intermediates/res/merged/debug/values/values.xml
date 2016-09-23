@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SvgDrawable"><attr name="android:src"/><attr name="android:antialias"/><attr name="android:filter"/><attr name="android:dither"/><attr name="android:gravity"/></declare-styleable>
+    <declare-styleable name="SvgImageView"><attr name="android:src"/></declare-styleable>
+    <string name="app_name">POI-PPT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">POI-PPT</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>

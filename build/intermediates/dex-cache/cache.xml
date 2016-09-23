@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\GW\ASProject\simple-pptas\app\libs\commons-logging-1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ba24d5de831911b684c92cd289ed5ff826271824">
+        <dex dex="C:\Users\GW\ASProject\simple-pptas\app\build\intermediates\pre-dexed\debug\commons-logging-1.1_24c871442bd6ce664c517104d4687b2200db2161.jar" />
+    </item>
+    <item
+        jar="C:\Users\GW\ASProject\simple-pptas\app\libs\log4j-1.2.13.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="8b1b85d04eea979c33109ea42808b7d3f6d355ab">
+        <dex dex="C:\Users\GW\ASProject\simple-pptas\app\build\intermediates\pre-dexed\debug\log4j-1.2.13_8aedb0495dcbe52dd4716b40482c1295353e6356.jar" />
+    </item>
+    <item
+        jar="C:\Users\GW\ASProject\simple-pptas\app\libs\commons-codec-1.5.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="cf993e250ff71804754ec2734a16f23c0be99f70">
+        <dex dex="C:\Users\GW\ASProject\simple-pptas\app\build\intermediates\pre-dexed\debug\commons-codec-1.5_896cc2c05c7469e9898c2e46b92108003f169fa0.jar" />
+    </item>
+    <item
+        jar="C:\Users\GW\ASProject\simple-pptas\app\libs\android-pre-support-v4.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="feb00b47f92c937a613a34dd533e8e0779f27b80">
+        <dex dex="C:\Users\GW\ASProject\simple-pptas\app\build\intermediates\pre-dexed\debug\android-pre-support-v4_6b288aec243f39ef609ad58d60e113e79ece6d8d.jar" />
+    </item>
+
+</items>

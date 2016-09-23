@@ -1,0 +1,76 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\ppt.iml
+* .idea\workspace.xml
+* ic_launcher-web.png
+* proguard-project.txt
+* scratchpad\
+* scratchpad\models\
+* scratchpad\models\poi-hdf.zargo
+* scratchpad\testcases\
+* scratchpad\testcases\dummy.txt
+* scratchpad\testcases\log4j.properties
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* awtport\ => app\src\main\java\
+* libs\android-pre-support-v4.jar => app\libs\android-pre-support-v4.jar
+* libs\armeabi\libsvgandroid.so => app\src\main\jniLibs\armeabi\libsvgandroid.so
+* libs\commons-codec-1.5.jar => app\libs\commons-codec-1.5.jar
+* libs\commons-logging-1.1.jar => app\libs\commons-logging-1.1.jar
+* libs\log4j-1.2.13.jar => app\libs\log4j-1.2.13.jar
+* lint.xml => app\lint.xml
+* poi\ => app\src\main\java\
+* poi\org\apache\poi\ddf\package.html => app\src\main\resources\org\apache\poi\ddf\package.html
+* poi\org\apache\poi\hpsf\package.html => app\src\main\resources\org\apache\poi\hpsf\package.html
+* poi\org\apache\poi\hpsf\wellknown\package.html => app\src\main\resources\org\apache\poi\hpsf\wellknown\package.html
+* poi\org\apache\poi\poifs\common\package.html => app\src\main\resources\org\apache\poi\poifs\common\package.html
+* poi\org\apache\poi\poifs\dev\package.html => app\src\main\resources\org\apache\poi\poifs\dev\package.html
+* poi\org\apache\poi\poifs\eventfilesystem\package.html => app\src\main\resources\org\apache\poi\poifs\eventfilesystem\package.html
+* poi\org\apache\poi\poifs\filesystem\package.html => app\src\main\resources\org\apache\poi\poifs\filesystem\package.html
+* poi\org\apache\poi\poifs\property\package.html => app\src\main\resources\org\apache\poi\poifs\property\package.html
+* poi\org\apache\poi\poifs\storage\package.html => app\src\main\resources\org\apache\poi\poifs\storage\package.html
+* poi\org\apache\poi\util\package.html => app\src\main\resources\org\apache\poi\util\package.html
+* res\ => app\src\main\res\
+* scratchpad\src\ => app\src\main\java\
+* src\ => app\src\main\java\
+* src\log4j.properties => app\src\main\resources\log4j.properties
+* svgandroid\ => app\src\main\java\
+* wmf2svg\ => app\src\main\java\
+* wmf2svg\net\arnx\wmf2svg\gdi\svg\SvgGdi.properties => app\src\main\resources\net\arnx\wmf2svg\gdi\svg\SvgGdi.properties
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
